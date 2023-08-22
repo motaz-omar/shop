@@ -1,0 +1,21 @@
+#shop {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+#products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+@media (max-width: 880px) {
+  #products {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 881px) and (max-width: 1350px) {
+  #products {
+    grid-template-columns: 1fr 1fr;
+  }
+}
